@@ -23,7 +23,7 @@ from models.common import post_process_output
 
 logging.basicConfig(level=logging.INFO)
 
-cv2.namedWindow('Display', cv2.WINDOW_NORMAL)
+#cv2.namedWindow('Display', cv2.WINDOW_NORMAL) Error: Cannot connect to X Server
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Train GG-CNN')
